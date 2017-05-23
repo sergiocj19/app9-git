@@ -26,7 +26,7 @@ function getPosition(){
 	
 	var watchID=navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 	
-	function onSuccess(Position){
+	function onSuccess(position){
 		
 		alert('Latitude:'   +position.coords.latitude +'\n'+
 		      'Longitude:'   +position.coords.longitude +'\n'+
